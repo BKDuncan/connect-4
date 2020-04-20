@@ -1,0 +1,67 @@
+.app {
+    padding: 1rem;
+}
+
+.code-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.user-container {
+    width: min-content;
+    padding: 0.5rem 4rem 0.5rem 3rem;
+}
+
+.matchmaking-container {
+    margin-top: 5rem;
+    width: fit-content;
+    padding: 0.5rem 4rem 2rem 3rem;
+}
+
+.code-container {
+    margin-top: 5rem;
+    width: 30rem;
+    height: min-content;
+    padding: 0.5rem 4rem 2rem 3rem;
+    margin-right: 5rem;
+}
+
+input {
+    font-size: 1rem;
+    margin: 0;
+    margin-right: 2rem;
+    padding: 0.5rem;
+    flex-grow: 1;
+    border: none;
+}
+
+.code-input {
+    min-width: 20rem;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-width: 20rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 20rem;
+}

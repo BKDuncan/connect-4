@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+html, body, #root, .app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+  font-family: 'Orbitron', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  overflow: auto;
+}
+
+input, div, span {
+  font-family: 'Orbitron', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

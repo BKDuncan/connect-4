@@ -1,0 +1,177 @@
+/* BACKGROUND */
+
+.default-background {
+    background: #a79c93;
+}
+
+.dark-background {
+    background: #54565f;
+}
+
+.light-background {
+    background: #f4f4f4;
+}
+
+/* GENERAL FONT & UI COLORS */
+
+.default {
+    background: transparent;
+    color: #c1403d;
+}
+
+.dark {
+    background: transparent;
+    color: #f3f3f3;
+}
+
+.light {
+    background: transparent;
+    color: #60bcc4;
+}
+
+.default-secondary {
+    background: transparent;
+    color: #54565f;
+}
+
+.dark-secondary {
+    background: transparent;
+    color: #20c20e;
+}
+
+.light-secondary {
+    background: transparent;
+    color: #54565f;
+}
+
+.default-tertiary {
+    font-weight: 400;
+    background: transparent;
+    color: #f3f3f3;
+}
+
+.dark-tertiary {
+    font-weight: 400;
+    background: transparent;
+    color: #20c20e;
+}
+
+.light-tertiary {
+    font-weight: 400;
+    background: transparent;
+    color: #54565f;
+}
+
+.default-ui {
+    background: #c7bab0;
+}
+
+.dark-ui {
+    background: #54565f;
+}
+
+.light-ui {
+    background: #f4f4f4;
+}
+
+.default-ui2 {
+    background: #54565f;
+}
+
+.dark-ui2 {
+    background: #333;
+}
+
+.light-ui2 {
+    background: #fff;
+}
+
+/* SPECIFIC UI COMPONENTS */
+
+button.default {
+    border-color: #fff;
+}
+
+button.dark {
+    border-color: #373737;
+}
+
+button.light {
+    border-color: #fff;
+}
+
+.default > option {
+    background: #c7bab0;
+}
+
+.dark > option {
+    background: #575757;
+}
+
+.light > option {
+    background: #f4f4f4;
+}
+
+.default::placeholder {
+    color: #b4b4b4;
+    font-weight: 500;
+}
+
+.dark::placeholder {
+    color: #b4b4b4;
+    font-weight: 500;
+}
+
+.light::placeholder {
+    font-weight: 500;
+}
+
+.spinner.default {
+    background: #c1403d;
+}
+
+.spinner.dark {
+    background: #20c20e;
+}
+
+.spinner.light {
+    background: #60bcc4;
+}
+
+/* GAME PIECES */
+
+.cell.default, .valid-p0-default, .valid-p1-default {
+    background: #a79c93;
+}
+
+.cell.dark, .valid-p0-dark, .valid-p1-dark {
+    background: #54565f;
+}
+
+.cell.light, .valid-p0-light, .valid-p1-light {
+    background: #f4f4f4;
+}
+
+.p0-default, .valid-p0-default:hover {
+    background: #c1403d;
+}
+
+.p0-dark, .valid-p0-dark:hover  {
+    background: #20c20e;
+}
+
+.p0-light, .valid-p0-light:hover  {
+    background: #60bcc4;
+}
+
+.p1-default, .valid-p1-default:hover  {
+    background: #f3f3f3;
+}
+
+.p1-dark, .valid-p1-dark:hover  {
+    background: #f3f3f3;
+}
+
+.p1-light, .valid-p1-light:hover  {
+    background: #54565f;
+}
