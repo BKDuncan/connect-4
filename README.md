@@ -23,3 +23,10 @@ $ yarn start // or npm start
 ```
 
 4. Open `localhost:3000` on multiple browsers or incognito windows to start playing.
+
+### Game Lobby
+![Game Lobby](./screenshots/lobby1.PNG)
+![Game Lobby](./screenshots/lobby2.PNG)
+
+### Gameplay
+![Connect-4 Game](./screenshots/game1.PNG)
