@@ -12,18 +12,6 @@ import {
   Redirect
 } from 'react-router-dom'
 
-/**
-
-GAMEPLAY
-
-* Fix resizing (dynamic with certain window sizes || min size big)
-
-* Push
-
-* Readme for running
-
- */
-
 function App() {
   return (
       <Provider store={store}>

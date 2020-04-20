@@ -5,8 +5,8 @@ export const BOARD =
     [null, null, null, null, null, null, null],
     [null, null, null, null, null, null, null],
     [null, null, null, null, null, null, null],
-    [null, null, 'p1', null, null, null, null],
-    ['p0', null, 'p1', null, 'p0', 'p0', null]];
+    [null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null]];
 
 export const checkBoard = (board) => {
     return checkVerticals(board)
